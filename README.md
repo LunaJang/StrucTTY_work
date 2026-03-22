@@ -2,11 +2,11 @@
 
 An Interactive, Terminal-Native Protein Structure Viewer
 
-**Structty** is a lightweight, terminal-based protein structure visualizer designed for fast and interactive comparison of protein structures. It supports simultaneous visualization of two proteins, customizable chain selection, and even external transformation matrices (u, t) for alignment. It is built for extensibility and will support Foldseek integration in the near future.
+**Structty** is a lightweight, terminal-based protein structure visualizer designed for fast and interactive comparison of protein structures. It supports simultaneous visualization of up to nine proteins, customizable chain selection, and even external transformation matrices (u, t) for alignment. It is built for extensibility and will support Foldseek integration in the near future.
 
 ## ✨ Features
 
-* Render up to six proteins in the terminal
+* Render up to nine proteins in the terminal
 * Move and rotate proteins independently or simultaneously
 * Support for chain-specific views
 * Helix/sheet secondary structure visualization
@@ -119,6 +119,9 @@ make
 * `2` — Control only the second protein
 * ...
 * `6` — Control only the sixth protein
+* `7` — Control only the seventh protein
+* `8` — Control only the eighth protein
+* `9` — Control only the ninth protein
 
 ### Movement
 
